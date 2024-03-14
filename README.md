@@ -60,12 +60,12 @@ Backward propagation involves computing gradients of the loss function with resp
 
 ### e. Weights and Biases Update
 - Updates for weights and biases involve the learning rate and momentum:
-self.weights1 -= self.learning_rate * self.dE_dw1 + alpha_momentum * self.momentum_weights1
-self.weights2 -= self.learning_rate * self.dE_dw2 + alpha_momentum * self.momentum_weights2
-self.weights3 -= self.learning_rate * self.dE_dw3 + alpha_momentum * self.momentum_weights3
+- `self.weights1 -= self.learning_rate * self.dE_dw1 + alpha_momentum * self.momentum_weights1`
+- `self.weights2 -= self.learning_rate * self.dE_dw2 + alpha_momentum * self.momentum_weights2`
+- `self.weights3 -= self.learning_rate * self.dE_dw3 + alpha_momentum * self.momentum_weights3`
 
-self.bias1 -= self.learning_rate * self.dE_db1 + alpha_momentum * self.momentum_bias1
-self.bias2 -= self.learning_rate * self.dE_db2 + alpha_momentum * self.momentum_bias2
-self.bias3 -= self.learning_rate * self.dE_db3 + alpha_momentum * self.momentum_bias3
+- `self.bias1 -= self.learning_rate * self.dE_db1 + alpha_momentum * self.momentum_bias1`
+- `self.bias2 -= self.learning_rate * self.dE_db2 + alpha_momentum * self.momentum_bias2`
+- `self.bias3 -= self.learning_rate * self.dE_db3 + alpha_momentum * self.momentum_bias3`
 
 - Momentum is updated based on the derivatives from the previous iteration.
