@@ -1,7 +1,7 @@
 # Two Hidden Layer Neural Network for Human Activity Recognition
 
 ## 1. Introduction
-In this project, we focus on developing a neural network with two hidden layers to perform recognition of various human activities: downstairs motion, jogging motion, sitting motion, standing motion, upstairs motion, and walking motion. The dataset contains 7352 training and 2947 test samples. Rather than utilizing the time series features of these signals, statistical features such as mean, standard deviation, variance, skewness, and kurtosis were extracted and represented as a 561-dimensional vector per sample in the dataset.
+In this project, I focus on developing a neural network with two hidden layers to perform recognition of various human activities: downstairs motion, jogging motion, sitting motion, standing motion, upstairs motion, and walking motion. The dataset contains 7352 training and 2947 test samples. Rather than utilizing the time series features of these signals, statistical features such as mean, standard deviation, variance, skewness, and kurtosis were extracted and represented as a 561-dimensional vector per sample in the dataset.
 
 ## 2. Methodology
 The methodology involves constructing and training a two-hidden-layer neural network to recognize human activity, aiming to minimize the error between the predicted and true labels.
